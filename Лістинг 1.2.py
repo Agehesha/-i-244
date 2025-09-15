@@ -15,12 +15,12 @@ def selection_sort(arr):
 
         if min_index != i:
             arr[i], arr[min_index] = arr[min_index], arr[i]
-            assignments += 3  # обмін (3 присвоювання)
+            assignments += 3  
 
     return arr, comparisons, assignments
 
 
-# Приклад використання (варіант 24)
+
 sequence = [53, 5, 44, 47, 35, 83, 82, 85, 28]
 sorted_arr, comps, assigns = selection_sort(sequence.copy())
 
